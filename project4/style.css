@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #66bfbf;
+}
+
+.top {
+    background: #eaf6f6;
+    background-image: url(./images/cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: 5%;
+    background-position-x: 95%;
+    padding: 100px;
+    text-align: center;
+}
+
+.mountain {
+    background: #eaf6f6;
+    background-image: url(./images/cloud.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-y: 20px;
+    background-position-x: 50px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+p {
+    color: black;
+}
+
+span {
+    color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 40px;
+    margin: 10px;
+    background: #66bfbf;
+    color: white;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main img {
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.pic {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.writ {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 30px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #66bfbf;
+    color: white;
+}
+
+footer p {
+    background: #66bfbf;
+    color: white
+}
+
+.v {
+    color: #66bfbf;
+    font-size: 20px;
+}
+
+.x {
+    font-size: 40px;
+}

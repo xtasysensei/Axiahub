@@ -1,0 +1,103 @@
+.top {
+    background-color: rgb(204, 136, 9);
+    color: white;
+    padding: 30px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.middle {
+    background-color: rgb(4, 105, 151);
+    color: white;
+    padding: 30px;
+}
+
+.bottom {
+    background-color: rgb(1, 53, 59);
+    color: white;
+    padding: 30px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.container {
+    display: flex;
+    /* margin-top: 130px;
+    margin-bottom: auto;
+    margin-left: 160px;
+    margin-right: 160px; */
+    width: 70%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.a {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color:  rgb(204, 136, 9);
+    border: 2px solid  rgb(204, 136, 9);
+}
+
+.a:active{
+    background-color: rgb(204, 136, 9);
+    color: white;
+    border: 2px solid white;
+}
+
+.b {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color:  rgb(4, 105, 151);
+    border: 2px solid  rgb(4, 105, 151);
+}
+
+.b:active {
+    background-color: rgb(4, 105, 151);
+    color: white;
+    border: 2px solid white;
+}
+
+.c {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(1, 53, 59);
+    border: 2px solid  rgb(1, 53, 59);
+}
+
+.c:active {
+    background-color: rgb(1, 53, 59);
+    color: white;
+    border: 2px solid white;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: block;
+        margin: 50px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+        width: 100%;
+    }
+
+    .top {
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .bottom {
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    body {
+        height: 100%;
+    }
+}
+
+p {
+    font-size: 17px;
+}

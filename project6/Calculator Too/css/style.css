@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: rgb(230, 229, 229);
+}
+
+.container {
+	width: 450px;
+	height: 350px;
+	padding: 10px;
+	border-radius: 8px;
+	box-shadow: -8px -8px 4px 4px rgb(78, 78, 78),
+		-8px -8px 4px 4px rgba(66, 65, 65, 0.849);
+	background-color: rgb(27, 27, 27);
+}
+
+.display .disp {
+	width: 97%;
+	height: 70px;
+	font-size: 35px;
+	border: none;
+	outline: none;
+	text-align: right;
+	margin-left: 0.3rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: inset 8px 8px 8px rgb(255, 252, 245),
+		inset -8px -8px 8px rgb(255, 252, 245);
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+.buttons {
+	width: 100%;
+
+	margin: 5px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.buttons .row button {
+	width: 60px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 600;
+	border: none;
+	margin-right: 5px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	font-family: monospace;
+	height: 30px;
+	color: white;
+}
+
+.buttons .row button:active {
+	background-color: grey;
+}
+
+.op {
+	background-color: rgba(202, 133, 68, 0.384);
+}
+
+.del {
+	background-color: rgb(27, 27, 27);
+	color: black;
+}
+
+.clear {
+	background-color: rgb(6, 134, 6);
+}
+
+.ope {
+	background-color: rgb(4, 116, 116);
+}
+
+.num {
+	background-color: rgb(177, 7, 63);
+}

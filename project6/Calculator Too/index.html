@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="display">
+				<input class="disp" type="text" />
+			</div>
+
+			<div class="buttons">
+				<div class="row">
+					<button class="del" onclick="deli()">...</button>
+					<button class="op" onclick="factorial()">n!</button>
+					<button class="op" onclick="e()">exp</button>
+					<button class="op" onclick="π()">π</button>
+					<button class="op" onclick="per()">%</button>
+					<button class="clear" onclick="screen.value=''">AC</button>
+				</div>
+
+				<div class="row">
+					<button class="btn op">(</button>
+					<button class="btn op">)</button>
+					<button class="btn num">9</button>
+					<button class="btn num">8</button>
+					<button class="btn num">7</button>
+					<button class="btn ope">÷</button>
+				</div>
+
+				<div class="row">
+					<button class="op" onclick="cos()">cos</button>
+					<button class="op" onclick="log()">log</button>
+					<button class="btn num">6</button>
+					<button class="btn num">5</button>
+					<button class="btn num">4</button>
+					<button class="btn ope">x</button>
+				</div>
+
+				<div class="row">
+					<button class="op" onclick="tan()">tan</button>
+					<button class="op" onclick="sqrt()">√x</button>
+					<button class="btn num">3</button>
+					<button class="btn num">2</button>
+					<button class="btn num">1</button>
+					<button class="btn ope">-</button>
+				</div>
+
+				<div class="row">
+					<button onclick="sin()" class="op">sin</button>
+					<button class="op" onclick="pow()">x²</button>
+					<button class="btn num">0</button>
+					<button class="btn num">.</button>
+					<button
+						onclick="screen.value=eval(screen.value)"
+						class="ope"
+					>
+						=
+					</button>
+					<button class="btn ope">+</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/index.js"></script>
+	</body>
+</html>

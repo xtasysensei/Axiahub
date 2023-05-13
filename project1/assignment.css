@@ -1,0 +1,36 @@
+.btn {
+    background-color: rgb(17, 17, 17);
+    padding: 12px;
+    border: 0px;
+    margin-left: 30px;
+    display: inline-block;
+    justify-content: center;
+   
+}
+
+.btn:hover {
+    background-color: gray;
+}
+
+.nav {
+    margin-left: 300px;
+}
+
+.ad {
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 750px) {
+    .top {
+        display: block;
+    }
+    .nav{
+        margin-left: 0;
+    }
+
+    .btn {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,98 @@
+body {
+  background-color: rgb(238, 237, 237);
+}
+
+
+h1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    text-align: center;
+    color: white;
+}
+
+.top ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+.top li {
+      float: left;
+}
+
+.top li a {
+      display: block;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+      color: #333333;
+}
+
+.top li a:hover {
+      background-color: white;
+}
+
+.left {
+    border: 2px solid rgb(226, 224, 224);
+    padding: 25px;
+    border-radius: 15px;
+    float: right;
+    height: 380px;
+    background-color: rgb(238, 237, 237);
+    box-shadow: 2px 2px -2;
+    
+}
+
+.top {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(223, 221, 221);
+   margin-top: 0;
+}
+
+footer {
+  text-align: center;
+  padding: 120px;
+}
+
+.middle {
+  background-color: white;
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 60rem;
+  box-shadow: 2px 2px -2;
+  height: fit-content;
+  
+}
+
+form {
+  padding: 15px;
+}
+
+@media screen and (max-width: 750px) {
+  .top {
+    display: block;
+  }
+
+  .left {
+    height: 12rem;
+    padding: 10px;
+    margin-top: 10px;
+  
+  }
+
+
+}
+
+.go {
+  background-color: #333333;
+  color: white;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 3px;
+}

@@ -1,0 +1,17 @@
+body {
+   background-image: url("src2/background.jpg");
+}
+
+div {
+    background-color: white;
+    padding: 15px;
+    margin-top: 180px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.top {
+    text-align: center;
+    font-size: 35px;
+}
